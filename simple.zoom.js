@@ -31,7 +31,7 @@
 				});
 				
 				if(x > 50 && y <= 50){
-					//console.log(1)
+					// 1
 					x = 0;
 					y = 0;
 					$element.css({
@@ -41,7 +41,7 @@
 						'left'	: ''
 					})
 				}else if(x <= 50 && y <= 50) {
-					//console.log(2)
+					// 2
 					x = 0;
 					y = 0;
 					$element.css({
@@ -51,7 +51,7 @@
 						'right'	: ''
 					})
 				}else if(x <= 50 && y > 50){
-					//console.log(3)
+					// 3
 					x = 0;
 					y = 0;
 					$element.css({
@@ -61,7 +61,7 @@
 						'right' : ''
 					})
 				}else if(x > 50 && y > 50){
-					//console.log(4)
+					// 4
 					x = 0;
 					y = 0;
 					$element.css({
